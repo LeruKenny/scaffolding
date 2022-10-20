@@ -58,9 +58,9 @@ After the s3 bucket for the state has been created, you can run the shell script
 The shell script can be use to run a plan, apply or destroy on the different environments. 
 example: ./tfscaffold.sh plan dev us-east-1
 
-./tfscaffold.sh - the scriptname 
-plan - the terraform command
-dev - the environment  
+./tfscaffold.sh - the scriptname,
+plan - the terraform command,
+dev - the environment,
 us-east-1 - the region 
 
 <a name="plan"></a>
